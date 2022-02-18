@@ -14,7 +14,7 @@ body {
     background-image: url("./images/starwars.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: center;
+    background-attachment: fixed;
 }
 
 
@@ -27,7 +27,7 @@ body {
 }
 
 main {
-  width: 30%;  
+  width: 50%;  
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 20px;
   padding: 2rem 2.5rem;
@@ -67,7 +67,18 @@ button:hover {
     
 }
 
+@media only screen and (max-width: 900px){
+    main {
+        width: 70%; 
+    }
 
+    body {
+    background-position: center center;
+}
+
+
+    
+}
 
 
 /* FOOTER */

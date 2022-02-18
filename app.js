@@ -26,7 +26,7 @@ let quotes = [
         movie_image: "./images/nemo.png",
     },
     {
-        movie_quote: "My little Amélie, you don't have bones of glass. You can take life's knocks. If you let this chance pass, eventually, your heart will become as dry and brittle as my skeleton. So, go get him, for Pete's sake!",
+        movie_quote: "My little Amélie, you don't have bones of glass. You can take life's knocks. If you let this chance pass, eventually, your heart will become as dry and brittle as my skeleton",
         movie_name: "The Fabulous Destiny of Amélie Poulain",
         movie_image: "./images/amelie.jpg",
     },
