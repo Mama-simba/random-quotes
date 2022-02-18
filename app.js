@@ -71,7 +71,7 @@ let quotes = [
         movie_image: "./images/shawshank.jpg",
     },
     {
-        movie_quote: "Don't be ridiculous. You're not handicapped, you're — What do they call the — exceptional?",
+        movie_quote: "Don't be ridiculous! You're not handicapped, you're... What do they call the... exceptional?",
         movie_name: "Edward Scissorhands",
         movie_image: "./images/edward.jpg",
     },
@@ -102,19 +102,7 @@ function generateQuote(event) {
     let movie = document.getElementById("movie").innerHTML = randomMovie;
     let bgimage = document.querySelector("body").style.backgroundImage = 'url(' + randomImage + ')';
     
-    //bodybg.style.background = `images/${randomImage}`;
-    //"url('" + randomImage + "')";
-    //"url(./images/${randomImage})";
-    //"url(./images/terminator.jpg)"
-
-    
-
-    
-  
-
-
-    
-    
+ 
 }
 
 
